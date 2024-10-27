@@ -9,10 +9,11 @@ def calculadora(num1, num2, operacao):
         if num2 != 0:
             return num1 / num2
         else:
-            return "Erro: Divisão por zero"
+            return "Erro: 404"
     else:
         return 0
-print(calculadora(10,5,1))
+print(calculadora(10,5,1)) 
+
 
 
 
